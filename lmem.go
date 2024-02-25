@@ -91,7 +91,7 @@ func parseMemoryVal(s string) (int, error) {
 // This function is used to collect RAM and swap memory information.
 func GetRam() (Memory, error) {
 
-	// Read 16 lines from the MemoryInfo file.
+	// Read 54 lines from the MemoryInfo file.
 	lines, err := cmlib.ReadLines(MemoryInfo, 54)
 
 	// errors control
