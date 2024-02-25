@@ -1,7 +1,7 @@
 # LMem
 
 LMem is a Go library that provides detailed information about system memory usage, including swap usage, 
-RAM usage, and 52 other memory-related metrics on Linux systems.
+RAM usage, and 53 other memory-related metrics on Linux systems.
 
 ### Features
 - Fetches and displays memory statistics in real-time
